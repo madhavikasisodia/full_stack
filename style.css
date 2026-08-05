@@ -1,0 +1,104 @@
+body{
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+}
+
+h2{
+    color: darkred;
+}
+
+p{
+    color: #333333;
+    font-size: 18px;
+}
+
+hr{
+    border: 1px solid gray;
+}
+
+ul,ol{
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: red;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+    border: 2px solid gray;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+}
+
+input[type="submit"]{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: green;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+}
