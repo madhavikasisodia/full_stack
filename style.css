@@ -109,3 +109,45 @@ footer{
     margin-top: 20px;
     color: gray;
 }
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode h1 {
+    color: lightblue;
+}
+
+.dark-mode h2 {
+    color: lightcoral;
+}
+
+.dark-mode p {
+    color: #dddddd;
+}
+
+.dark-mode ul,
+.dark-mode ol,
+.dark-mode table,
+.dark-mode form {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode a {
+    color: lightblue;
+}
+
+.dark-mode td {
+    color: white;
+}
+
+.dark-mode hr {
+    border-color: gray;
+}
+
+.dark-mode #mode-btn {
+    background-color: white;
+    color: black;
+}

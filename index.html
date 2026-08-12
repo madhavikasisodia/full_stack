@@ -6,7 +6,7 @@
 </head>
 
 <body>
-
+    <button id="mode-btn">Dark Mode</button>
     <h1>Welcome to My Webpage</h1>
 
     <hr>
@@ -140,5 +140,24 @@
         <p>© 2026 My First HTML Page</p>
     </footer>
 
+    <button id = "sbt-btn">Submit</button>
+
 </body>
+
+<script>
+    const btn = document.getElementById("sbt-btn");
+    btn.disabled = true;
+
+    const modeBtn = document.getElementById("mode-btn");
+
+    modeBtn.addEventListener("click", function() {
+        document.body.classList.toggle("dark-mode");
+
+        if (document.body.classList.contains("dark-mode")) {
+            modeBtn.innerText = "Light Mode";
+        } else {
+            modeBtn.innerText = "Dark Mode";
+        }
+    });
+</script>
 </html>
