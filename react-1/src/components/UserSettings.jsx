@@ -3,3 +3,4 @@ function userSettings({setName}) {
         <button onClick={() => setName('LPU')}>Change Name</button>
     )
 }
+export default userSettings;

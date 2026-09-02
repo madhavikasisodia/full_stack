@@ -5,3 +5,4 @@ function UserProfile({name}) {
         </>
     )
 }
+export default UserProfile;

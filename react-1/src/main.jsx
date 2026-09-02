@@ -8,9 +8,12 @@ import Body from './Body.jsx';
 import Footer from './Footer.jsx';
 import Student_card from './Student_card.jsx';
 import Prop from './Props.jsx';
+import Counter from './components/counter.jsx';
+import UserData from './components/UserData.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    
     <App />
     <Hello />
     <Navbar />
@@ -18,5 +21,7 @@ createRoot(document.getElementById('root')).render(
     <Footer />
     <Student_card />
     <Prop name="DK" sec="EB" id="214" />
+    <Counter />
+    <UserData />
   </StrictMode>
 );
